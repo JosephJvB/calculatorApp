@@ -1,9 +1,11 @@
+
 var calcScreen = document.getElementById("display")
 function logCalc (x) {
   calcScreen.value += x;
-  if (x==='C') {
-    calcScreen.value='';
-  }
+}
+
+function clearAll (){
+  calcScreen.value = "";
 }
 
 function calcCalc () {
