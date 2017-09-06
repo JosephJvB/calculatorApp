@@ -9,6 +9,11 @@ h1 {
   text-shadow: 2px 2px 2px #000000;
 }
 
+h4 {
+  margin-top: 125px;
+  color: white;
+}
+
 #cLater {
   background-color: #2f4c56;
   width: 35%;
@@ -21,5 +26,5 @@ h1 {
 input[type="button"] {
   color: black;
   background-color: #bfbfbf;
-  
+
 }
